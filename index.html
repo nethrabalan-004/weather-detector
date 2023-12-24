@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <br><br><br><br>
+    <div class="main">
+     <h1 style="display: flex;">Find the <div style="color: orange;text-shadow: 1px 1px 10px black;">&nbsp; mood &nbsp;</div>of your day!</h1>
+        <form id="location-form" class="top">
+           
+            <input type="text" id="city" name="city" required placeholder="City Name" class="input">
+            <button id="b1" type="submit" class="button">Show</button>
+        </form>
+        <div id="weather-container" class="in2">
+            <section class="in2-one">
+                <br><br>
+            <div id="location"></div>
+            <div id="temperature"></div>
+            <div id="description"></div>
+        </section>
+            <div id="icon" style="display: flex;"></div>
+           
+        </div>
+        <div id="date_time" style="font-family: cursive;font-size: medium;"></div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

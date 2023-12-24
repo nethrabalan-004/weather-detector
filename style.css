@@ -1,0 +1,71 @@
+body{
+   background-image: url(bg.gif);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100%;
+}
+.main
+{
+    display: flex;
+    width: 500px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.488);
+    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 1px 1px 25px rgb(0, 0, 0);
+}
+.in2
+{
+    margin: auto;
+    gap: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    padding: 20px;
+}
+.input
+{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 30px 0px 0px 30px;
+    font-size: medium;
+   border: none;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+
+
+    
+}
+.top
+{
+    display: flex;
+    width: 500px;
+    height: 40px;
+ 
+    align-items: center;
+    border-radius: 30px;
+    /* border: 3px solid black; */
+    color: black;
+    box-shadow: 1px 1px 10px black;
+}
+.button
+{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    background-color: orange;
+    /* border-left: 3px solid black; */
+    font-weight: bold;
+    font-family:sans-serif;
+    font-size: medium;
+}
+.in2-one
+{
+    font-size: larger;
+}
